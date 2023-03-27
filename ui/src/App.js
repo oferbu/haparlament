@@ -1,11 +1,11 @@
-import { Todos } from "./components/Todos";
+import {Link} from "react-router-dom"
 
-function App() {
-  return (
-    <div className="container">
-      <Todos />
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="container">
+            <Link to="/call"> Click here to start chat </Link>
+        </div>
+    );
 }
 
 export default App;
