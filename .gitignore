@@ -20,3 +20,4 @@
 /go.sum
 /deploy/haparlament
 python_backend/src/__pycache__/main.cpython-39.pyc
+.DS_Store
